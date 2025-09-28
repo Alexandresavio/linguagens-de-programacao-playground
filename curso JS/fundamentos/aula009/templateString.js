@@ -19,3 +19,11 @@ console.log(mensagem2);
 // Saída:
 // "O preço do produto é $100.
 // Com um desconto de 10%, o novo preço é $90."
+
+//expressoes..
+console.log(`1 + 1 = ${ 1+1}`)
+
+//up é uma arrow function que recebe um parâmetro chamado texto.
+// Ela retorna texto.toUpperCase(), ou seja, a versão do texto em maiúsculas.
+const up = texto => texto.toUpperCase();
+console.log(`Ei... ${up("cuidado!")}`)

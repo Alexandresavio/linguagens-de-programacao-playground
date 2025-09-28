@@ -10,4 +10,4 @@ console.log(escola.substring(0, 3)); // retorna Do índice 0 até 3 (exclusivo) 
 console.log('Escola '.concat(escola).concat("!")); //concatenar strings
 console.log(escola.replace(3, "e"));//Aqui o replace não substitui por posição, mas sim o primeiro caractere "3" encontrado. Resultado: "coder"
 
-console.log("Ana, Maria, Pedro".split(","));
+console.log("Ana, Maria, Pedro".split(","));//split(separador) → transforma string em array
